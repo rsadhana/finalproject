@@ -1,0 +1,44 @@
+# proposal
+
+## **Proposal 1**
+
+*Research Question*: How does the number of days an individual have
+physical activity relate to diabetes?
+
+The unit of analysis is an individual NHANES survey participant. The
+population is those who participated in the NHANES dataset.
+
+The exposure variable is physical activity days. This is measured as the
+number of days per week an individual engages in moderate or vigorous
+recreational physical activity. This variable is a discrete number,
+ranging from 1 to 7 days per week. For the primary analysis, physical
+activity frequency will be treated as a continuous predictor to assess
+the association between each additional day of physical activity and the
+odds of diabetes. Individuals with missing values will be excluded.
+
+The outcome variable is the prevalence of diabetes, and it is
+categorical; the individual has or doesn’t have it.
+
+Confounders I will adjust for include age, race/ethnicity, sex, and BMI.
+
+## **Proposal 2**
+
+*Research Question:* How does the frequency of reported foodborne
+illness outbreaks vary by season and U.S. geographic region?
+
+The unit of analysis is a state-month, and the population consists of
+reported foodborne illness outbreaks in the United States during the
+study period.
+
+Season and geographic region are categorical variables. Seasons will be
+grouped into winter, spring, summer, and fall, while geographic regions
+will be grouped into Northeast, Midwest, South, and West for now (could
+be changed). Records with missing season or region information will be
+excluded.
+
+The outcome is frequency of foodborne illness. This variable is a
+discrete count variable.
+
+Confounders can be state population. Also, potentially calendar year
+will be considered to account for changes in outbreak reporting over
+time.
